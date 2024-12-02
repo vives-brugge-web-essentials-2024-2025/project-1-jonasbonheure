@@ -59,7 +59,7 @@ body {
     background-color: white;
 }
 .section-dark {
-    background-color: white;
+    background-color: black;
 }
 .section-container {
     padding: 40px 20px;
@@ -104,7 +104,6 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
     text-align: center;
-    background-color: whitesmoke;
 }
 
 .werknemers-grid img {
@@ -120,7 +119,7 @@ body {
 .solution {
     flex: 1;
     padding: 20px;
-    background-color: lightgreen;
+    background-color: lightseagreen;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: small;
