@@ -1,0 +1,233 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Algemene opmaak */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 90%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+/* Header-styling */
+.header-container {
+    background: url('Images/header.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+.header-container h1 {
+    font-size: 2.5em;
+}
+.header-container p {
+    font-size: 1.2em;
+}
+
+/* Navigatiebalk */
+.nav-bar {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-bar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav-bar li a:hover {
+    background-color: lightgreen;
+    border-radius: 5px;
+    color: black;
+}
+
+/* Secties met afwisselende achtergrondkleuren */
+.section-light {
+    background-color: white;
+}
+.section-dark {
+    background-color: white;
+}
+.section-container {
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: whitesmoke;
+}
+.section-container h2 {
+    color: black;
+    font-size: 1.8em;
+}
+.section-container p {
+    font-size: 1.1em;
+}
+.section-container a {
+    display: block;
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+.section-container a:hover {
+    color: lightgreen;
+}
+
+/* Afbeeldingen */
+.section-container img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 3px solid #ddd;
+    padding: 5px;
+    display: block;
+}
+
+/* Werknemers (3-kolommen grid) */
+.werknemers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.werknemers-grid img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Oplossingen (3-kolommen grid) */
+.solutions-grid {
+    display: flex;
+    gap: 20px;
+}
+.solution {
+    flex: 1;
+    padding: 20px;
+    background-color: lightgreen;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: small;
+    color: black;
+}
+
+#contact {
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    color: #333;
+    padding: 20px;
+}
+
+.contact-container {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    text-shadow: rgba(0, 0, 0, 0.455) 2px 2px 9px;
+}
+
+.contact-info {
+    flex: 1;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.contact-info h2 {
+    color: #000000;
+}
+
+.contact-info p,
+.contact-info a {
+    color: #333;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.contact-form h2 {
+    color: #fff;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: green;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.input-group img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    color: black;
+}
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    box-shadow: #767373 0 0 5px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+.contact-form button:hover {
+    background-color: #666;
+}
+
+/* Footer */
+.footer-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9em;
+}
